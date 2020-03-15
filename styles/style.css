@@ -1,7 +1,47 @@
-.nav-link {}
+body {}
 
-.small-logo {}
+h1 {
+    font-size: 20px;
+}
 
-.blurb {}
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    border: 3px solid purple;
+    background-color: white;
+}
 
-#video{}
+#nav-bar {}
+
+#form{
+    margin-top: 60px;
+    width: 100%;
+    border: 3px solid green;
+}
+
+main {
+    border: 3px solid black;
+    width: 100%;
+}
+
+.small-logo {
+    border: 3px solid red;
+}
+
+.blurb {
+    border: 3px solid blue;
+}
+
+.options {
+    width: 100%;
+    border: 3px solid aqua;
+}
+
+#video{
+    border: 3px solid yellow;
+}
