@@ -1,7 +1,7 @@
 body {}
 
 #header-img {
-    border: 1px solid white;
+    border: 1px solid blue;
 }
 #header {
     position: fixed;
@@ -19,7 +19,35 @@ body {}
 }
 #form {
     border: 3px solid green;
+    text-align: center;
 }
+main {
+    border: 3px solid black;
+}
+.small-logo {
+    border: 1px solid blue;
+    height: 50px;
+    align-self: center;
+}
+.section {
+    margin: auto;
+    height: auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+}
+.blurb {
+    border: 1px solid red;
+    text-align: center;
+    overflow-wrap: normal;
+}
+.options {
+    border: 3px solid aqua;
+}
+#video{
+    border: 3px solid yellow;
+}
+
 
 @media (min-width: 0px) {
     #header {
@@ -35,6 +63,9 @@ body {}
     }
     #form {
         margin-top: 275px;
+    }
+    .small-logo {
+        width: 0px;
     }
 }
 @media (min-width: 600px) {
@@ -52,6 +83,16 @@ body {}
     }
     #form {
         margin-top: 145px;
+    }
+    .small-logo {
+        width: 80px;
+    }
+    .blurb {
+        width: 80%;
+        text-align: justify;
+    }
+    .section {
+        justify-content: space-around;
     }
 }
 @media (min-width: 1000px) {
@@ -71,32 +112,4 @@ body {}
     #form {
         margin-top: 85px;
     }
-}
-
-
-
-
-
-
-
-main {
-    border: 3px solid black;
-    width: 100%;
-}
-
-.small-logo {
-    border: 3px solid red;
-}
-
-.blurb {
-    border: 3px solid blue;
-}
-
-.options {
-    width: 100%;
-    border: 3px solid aqua;
-}
-
-#video{
-    border: 3px solid yellow;
 }
