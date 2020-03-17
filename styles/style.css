@@ -45,6 +45,9 @@ main {
     border: 3px solid aqua;
 }
 #video{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     border: 3px solid yellow;
 }
 
