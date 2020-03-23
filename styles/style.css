@@ -16,6 +16,8 @@ body {}
     border: 1px solid red;
     width: 60%;
     display: flex;
+    line-height: 12px;
+    padding: 3px;
 }
 #form {
     border: 3px solid green;
@@ -77,7 +79,7 @@ main {
         max-height: 130px;
     }
     #form {
-        margin-top: 275px;
+        margin-top: 230px;
     }
     .small-logo {
         width: 0px;
